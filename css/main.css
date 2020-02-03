@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: Arial;
+
+}
+
+table{
+    margin:auto;
+    padding: 30px;
+    border: 0;
+}
+
+.board td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: beige;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    border:0;
+}
+
+.board td.correct{
+    background-color:tomato;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.radioBtn{
+    font-size: 20px;
+}
